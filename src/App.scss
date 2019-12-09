@@ -8,8 +8,9 @@ $yellow: #fafd7cff;
 $duke-green: #526e2dff;
 $deep-blue: #24325fff;
 $powder-blue: #b7e4f9ff;
-$ocean-blue: #69c8ecff;
+$ocean-blue: rgba(0, 0, 0, 0.7);
 $orange: #e89242ff;
+$white: white;
 
 // global variables
 $primary: $powder-blue;
@@ -19,6 +20,8 @@ $secondary: $salmon;
 $body-background-color: $yellow;
 $card-content-background-color: $primary;
 $card-background-color: $secondary;
+$input-background-color: $ocean-blue;
+$input-color: $white;
 
 // imports
 @import "node_modules/bulma/bulma.sass";

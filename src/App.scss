@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+// main colors
+
+$pink: #e762d7ff;
+$salmon: #fb6467ff;
+$yellow: #fafd7cff;
+$duke-green: #526e2dff;
+$deep-blue: #24325fff;
+$powder-blue: #b7e4f9ff;
+$ocean-blue: #69c8ecff;
+$orange: #e89242ff;
+
+// global variables
+$primary: $powder-blue;
+$secondary: $salmon;
+
+// updates to bulma's component variables
+$body-background-color: $yellow;
+
+// imports
+@import "node_modules/bulma/bulma.sass";

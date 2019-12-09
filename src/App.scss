@@ -17,6 +17,8 @@ $secondary: $salmon;
 
 // updates to bulma's component variables
 $body-background-color: $yellow;
+$card-content-background-color: $primary;
+$card-background-color: $secondary;
 
 // imports
 @import "node_modules/bulma/bulma.sass";

@@ -10,11 +10,14 @@ class UserCard extends Component {
 
   render() {
     return (
-      <div>
+      <div className="card">
         <img src={this.props.detail.avatar_url} />
-        <div>
-          <h1> {this.props.detail.login} </h1>
-          <h2> Followers: {this.props.detail.followers} </h2>
+        <div className=" card-content">
+          <h1 className="title is-12"> {this.props.detail.login} </h1>
+          <h2 className="subtitle is-6">
+            {" "}
+            Followers: {this.props.detail.followers}{" "}
+          </h2>
         </div>
       </div>
     );
